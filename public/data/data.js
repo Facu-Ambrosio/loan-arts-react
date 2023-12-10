@@ -4,7 +4,7 @@ export const products = [
     nombre: "15 Dias Mas",
     precio: 9000,
     cantidad: 1,
-    direccion:"../public/images/15 Dias Mas.jpg"
+    direccion:"../public/images/15 Dias Mas.jpg",
   },
   {
     id: 1,

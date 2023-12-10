@@ -1,10 +1,7 @@
-export function EraseProductButton({ sacar, setSacar }) {
-  const handleClick = () => {
-    setSacar(!sacar);
-  };
+export function EraseProductButton({}) {
 
   return (
-    <button onClick={handleClick} className="items-">
+    <button className="items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

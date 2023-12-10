@@ -1,10 +1,14 @@
-export function Exit({ mostrar, setMostrar }) {
+import { useContext } from "react";
+import { GlobalStateContext } from "../../context/globalStateContext";
+
+export function Exit({}) {
+
+  const { mostrar, setMostrar } = useContext(GlobalStateContext)
 
   const handleClick = () => {
     setMostrar(!mostrar)
   };
   
-
   return (
     <button onClick={handleClick}>
       <svg

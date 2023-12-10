@@ -1,4 +1,8 @@
-export function EnterCartButton({ mostrar, setMostrar }) {
+import { useContext } from "react";
+import { GlobalStateContext } from "../../context/globalStateContext";
+
+export function EnterCartButton({ }) {
+  const { mostrar, setMostrar } = useContext(GlobalStateContext)
   const handleClick = () => {
     setMostrar(!mostrar)
   };
